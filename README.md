@@ -46,7 +46,7 @@ If *dest* is NULL or *dest_sz* 0, nothing is written. Otherwise, up to
 *dest_sz* characters are written, including the \0 terminator, possibly
 truncating the output.
 
-Rreturns the length of the output string. If less than *dest_sz*, the
+Returns the length of the output string. If less than *dest_sz*, the
 output has not been truncated.
 
 For example, to pad the string "5581" to 16 characters, assuming *buf*
